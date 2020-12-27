@@ -4,7 +4,8 @@
 			"shopName": "PierreShop",
 			"itemStocks": [
 				{ "ItemType": "Object", "ItemNames": ["Iridium Ore"], "StockPrice": 100, "Stock": 5 },
-				{ "ItemType": "Object", "ItemNames": ["Battery Pack"], "StockPrice": 250, "Stock": 1 }
+				{ "ItemType": "Object", "ItemNames": ["Battery Pack"], "StockPrice": 250, "Stock": 1 },
+				{ "ItemType": "Object", "ItemNames": ["Wild Bait"], "StockPrice": 5, "Stock": 10 }
 			]
 		}
 	]
