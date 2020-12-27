@@ -1,0 +1,16 @@
+{
+    "Name": "Easy Mode Store",
+    "Author": "NightBlade9",
+    "Version": "1.0.0",
+    "Description": "Adds difficult-to-get things to Pierre's store, at affordable prices.",
+    "UniqueID": "NightBlade9.EasyModeStore",
+    "MinimumApiVersion": "3.8.0",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+      "UniqueID": "Cherry.ShopTileFramework"
+    },
+    "Dependencies": [{
+        "UniqueID": "Cherry.ShopTileFramework",
+        "MinimumVersion": "1.0.9"
+     }]
+  }
