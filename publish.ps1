@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 $gameName = "EasyModeStore"
-$version = "v1.0.0"
+$version = "v1.0.1"
 $requiredFiles = @('manifest.json', 'shops.json', 'readme.txt')
 
 ################################################################
