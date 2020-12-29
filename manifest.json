@@ -1,11 +1,11 @@
 {
     "Name": "Easy Mode Store",
     "Author": "NightBlade9",
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Description": "Adds difficult-to-get things to Pierre's store, at affordable prices.",
     "UniqueID": "NightBlade9.EasyModeStore",
     "MinimumApiVersion": "3.8.0",
-    "UpdateKeys": [ "GitHub:nightblade9/easy-mode-store", "Nexus:7375" ],
+    "UpdateKeys": [ "GitHub:deengames/stardew-valley-easy-mode-store", "Nexus:7375" ],
     "ContentPackFor": {
       "UniqueID": "Cherry.ShopTileFramework"
     },
