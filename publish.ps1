@@ -1,11 +1,17 @@
 $ErrorActionPreference = 'Stop'
 $gameName = "EasyModeStore"
-$version = "v1.0.2"
 $requiredFiles = @('manifest.json', 'shops.json', 'readme.txt')
 
 ################################################################
 
+# Delete old artifacts
+Remove-Item *.zip
+
 $publishDir = [IO.Path]::Combine($pwd, "publish")
+
+# get version
+$manifestFile = [System.IO.File]::ReadAllText("manifest.json") | ConvertFrom-Json
+$version = $manifestFile.Version
 
 write-host "Version $version"
 
