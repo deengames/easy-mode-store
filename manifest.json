@@ -1,7 +1,7 @@
 {
     "Name": "Easy Mode Store",
     "Author": "NightBlade9",
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Description": "Adds difficult-to-get things to Pierre's store, at affordable prices.",
     "UniqueID": "NightBlade9.EasyModeStore",
     "MinimumApiVersion": "3.8.0",
