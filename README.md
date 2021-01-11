@@ -1,7 +1,6 @@
 # Easy Mode Store
 
-Easy-mode store mod for Stardew Valley. Adds difficult-to-get things to Pierre's store, at affordable prices.
-
+Easy-mode store mod for Stardew Valley. Adds difficult-to-get and bundle items (e.g. irridium ore, truffle) to Pierre's store, at affordable prices. Also replaces JojaMart's inventory with three of the same items, randomly chosen, each day.
 
 If you have any questions, comments, improvements, bugs, suggestions, etc. please open an issue [here](https://github.com/nightblade9/easy-mode-store/issues).
 
@@ -21,4 +20,4 @@ If you wish to add your own items to the store, open up `shops.json`. Simply cop
 - `StockPrice` is the price (in gold) for the item
 - `Stock` is how many of that item Pierre has, per-day
 
-If you're interested in more complex configuration, check the Shop Tile Framework readme.
+If you're interested in more complex configuration, check the Shop Tile Framework readme. Note that these changes will be obliterated when you update. I highly recommend you copy/paste the entire folder, change the manifest.json fields, and make it your own mod.
