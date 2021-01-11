@@ -1,13 +1,23 @@
 {
-	"vanillaShops": [
+	"VanillaShops": [
 		{
-			"shopName": "PierreShop",
-			"itemStocks": [
+			"ShopName": "PierreShop",
+			"ItemStocks": [
+				// always available: irridium, batteries, wild bait
 				{ "ItemType": "Object", "ItemNames": ["Iridium Ore"], "StockPrice": 100, "Stock": 5 },
 				{ "ItemType": "Object", "ItemNames": ["Battery Pack"], "StockPrice": 250, "Stock": 1 },
 				{ "ItemType": "Object", "ItemNames": ["Wild Bait"], "StockPrice": 5, "Stock": 10 },
-				{ "ItemType": "Object", "ItemNames": ["Pumpkin Seeds"], "StockPrice": 100, "Stock": 10 }
-			]
+			
+				// Ideally, three of tehse are available daily, they're available at kinda higher prices
+				{ "ItemType": "Object", "ItemNames": ["Pumpkin Seeds"], "StockPrice": 100, "Stock": 10 },
+				{ "ItemType": "Object", "ItemNames": ["Melon Seeds"], "StockPrice": 80, "Stock": 10 },
+				{ "ItemType": "Object", "ItemNames": ["Wheat Seeds"], "StockPrice": 10, "Stock": 10 },
+				{ "ItemType": "Object", "ItemNames": ["Poppy Seeds"], "StockPrice": 100, "Stock": 10 },
+				{ "ItemType": "Object", "ItemNames": ["Red Cabbage Seeds"], "StockPrice": 100, "Stock": 10 },
+				{ "ItemType": "Object", "ItemNames": ["Fiddlehead Fern"], "StockPrice": 180, "Stock": 1 },
+				{ "ItemType": "Object", "ItemNames": ["Truffle"], "StockPrice": 650, "Stock": 1 },
+				{ "ItemType": "Object", "ItemNames": ["Rabbit's Foot"], "StockPrice": 565, "Stock": 1 }
+			],
 		}
 	]
 }
