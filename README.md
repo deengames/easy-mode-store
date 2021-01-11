@@ -11,7 +11,7 @@ Requires the [Shop Tile Framework mod](https://www.nexusmods.com/stardewvalley/m
 
 # Installation
 
-Simply download and unzip the mod to your `Mods` directory and you're good to go
+Simply download and unzip the mod to your `Mods` directory and you're good to go. I highly recommend you install the [Crops Anytime Anywhere](https://www.nexusmods.com/stardewvalley/mods/3000) mod so you can plant the seasonal crops without waiting ages for the right season to arrive.
 
 # Customization
 
