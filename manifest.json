@@ -1,7 +1,7 @@
 {
     "Name": "Easy Mode Store",
     "Author": "NightBlade9",
-    "Version": "1.1.0",
+    "Version": "1.1.1",
     "Description": "Easy-mode store mod for Stardew Valley. Adds difficult-to-get and bundle items (e.g. irridium ore, truffle) to Pierre's store, at affordable prices. Also replaces JojaMart's inventory with three of the same items, randomly chosen, each day.",
     "UniqueID": "NightBlade9.EasyModeStore",
     "MinimumApiVersion": "3.8.0",

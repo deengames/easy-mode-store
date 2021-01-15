@@ -7,18 +7,17 @@ $requiredFiles = @('manifest.json', 'shops.json', 'readme.txt')
 # Delete old artifacts
 Remove-Item *.zip
 
-$publishDir = [IO.Path]::Combine($pwd, "publish")
-
 # get version
 $manifestFile = [System.IO.File]::ReadAllText("manifest.json") | ConvertFrom-Json
 $version = $manifestFile.Version
 
 write-host "Version $version"
 
+$zipFile = "$gameName-$version.zip"
+$publishDir = [IO.Path]::Combine($pwd, "$gameName-$version")
 $zipsPath = [IO.Path]::Combine(".", "*.zip")
 remove-item $zipsPath
 
-$zipFile = "$gameName-$version.zip"
 
 if (Test-Path($publishDir))
 {
@@ -40,5 +39,8 @@ if (Test-Path($zipFile))
 }
 
 Add-Type -A 'System.IO.Compression.FileSystem'
-[IO.Compression.ZipFile]::CreateFromDirectory($publishDir, $zipFile);
+write-host "Zip up $publishDir to $zipFile"
+[IO.Compression.ZipFile]::CreateFromDirectory($publishDir, $zipFile, [IO.Compression.CompressionLevel]::Optimal, $true)
 Write-Host DONE! Zipped to $zipFile
+
+Remove-Item $publishDir -Force -Recurse
